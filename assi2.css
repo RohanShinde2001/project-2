@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,800&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,800&family=Poppins:wght@400;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(970299-artwork-city-night-airport-lights.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 50px;
+    background-color: #13001a;
+}
+.header-img img{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: height 1s, width 1s;
+}
+
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #f9f0ff;
+    font-weight: 800;
+    font-size: small;
+
+
+    
+}
+nav ul li a:hover{
+    color: #f5b2ff;
+}
+.li{
+    margin-left: 25px;
+}
+.header-button button{
+    display: flex;
+    margin-top: 12px;
+    margin-left: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    color: #f9f0ff;
+    background-color: #ca2be2;
+    border: none;
+    border-radius: 5px;
+}
+.header-button button:hover{
+    background-color: blueviolet;
+}
+h1{
+    margin-top: 75px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: #fcecff;
+    justify-content: center;
+    justify-items: center;
+    font-size: 45px;
+    text-align: center;
+}
+h1:hover{
+    color: #fcd5fc;
+}
+h4{
+    margin-top: 10px;
+    color: #ffffff;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-weight: 300;
+    font-size: medium
+}
+h4:hover{
+    color: #f5dbf5;
+}
+.main-button button{
+    margin-top: 50px;
+    margin-left: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: large;
+    border-radius: 8px;
+    border: none;
+    background-color:#ca2be2;
+    color: #f9f0ff;
+    font-weight: 600;
+}
+.main-button button:hover{
+    background-color: blueviolet;
+}
